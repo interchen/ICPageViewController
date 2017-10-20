@@ -1,3 +1,2 @@
 language: swift
-xcode_project: ICPageViewController.xcodeproj # path to your xcodeproj folder
-xcode_scheme: ICPageViewController
+script: xcodebuild -project ICPageViewController.xcodeproj -scheme ICPageViewController -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
