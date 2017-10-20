@@ -2,7 +2,7 @@
 A container which easy to add children viewcontrollers and support horizontal scroll.
 
 ## Preview
-
+![screenshot](https://github.com/interchen/ICPageViewController/blob/master/ICPageViewController-screenshot.gif)
 
 ## Create ICPageViewController instance
 ```swift
