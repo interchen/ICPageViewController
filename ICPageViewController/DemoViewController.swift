@@ -52,7 +52,7 @@ class DemoViewController: UIViewController, ICPageViewControllerDelegate {
             viewController?.view.backgroundColor = .gray
             
         default:
-            viewController?.view.backgroundColor = .white
+            viewController?.view.backgroundColor = .lightGray
         }
         return viewController!
     }
