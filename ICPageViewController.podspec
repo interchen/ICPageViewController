@@ -81,7 +81,7 @@ and make them horizontal scrolling.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/interchen/ICPageViewController.git", :commit => "6f0294f234ea8c37caaf5446adce176c145421c6" }
+  s.source       = { :git => "https://github.com/interchen/ICPageViewController.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
