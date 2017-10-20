@@ -1,9 +1,3 @@
 language: swift
-script: 
-  xcodebuild 
-  -project ICPageViewController.xcodeproj 
-  -scheme ICPageViewController 
-  -sdk iphonesimulator 
-  ONLY_ACTIVE_ARCH=NO
-  CODE_SIGN_IDENTITY=""
-  CODE_SIGNING_REQUIRED=NO
+xcode_project: ICPageViewController.xcodeproj # path to your xcodeproj folder
+xcode_scheme: ICPageViewController
