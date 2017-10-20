@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4B43221A1F98888D00046E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4322191F98888D00046E5A /* AppDelegate.swift */; };
-		4B43221C1F98888D00046E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43221B1F98888D00046E5A /* ViewController.swift */; };
+		4B43221C1F98888D00046E5A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43221B1F98888D00046E5A /* DemoViewController.swift */; };
 		4B43221F1F98888D00046E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B43221D1F98888D00046E5A /* Main.storyboard */; };
 		4B4322211F98888D00046E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4322201F98888D00046E5A /* Assets.xcassets */; };
 		4B4322241F98888D00046E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4322221F98888D00046E5A /* LaunchScreen.storyboard */; };
 		4B43222F1F98888D00046E5A /* ICPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43222E1F98888D00046E5A /* ICPageViewControllerTests.swift */; };
 		4B43223A1F98888D00046E5A /* ICPageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4322391F98888D00046E5A /* ICPageViewControllerUITests.swift */; };
+		4B4322491F9888D100046E5A /* ICPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4322481F9888D100046E5A /* ICPageViewController.swift */; };
+		4B43224B1F98930F00046E5A /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B43224A1F98930F00046E5A /* SubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4B4322161F98888D00046E5A /* ICPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4322191F98888D00046E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B43221B1F98888D00046E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B43221B1F98888D00046E5A /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		4B43221E1F98888D00046E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B4322201F98888D00046E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4322231F98888D00046E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		4B4322351F98888D00046E5A /* ICPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4322391F98888D00046E5A /* ICPageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICPageViewControllerUITests.swift; sourceTree = "<group>"; };
 		4B43223B1F98888D00046E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4322481F9888D100046E5A /* ICPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICPageViewController.swift; sourceTree = "<group>"; };
+		4B43224A1F98930F00046E5A /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		4B4322181F98888D00046E5A /* ICPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				4B4322471F9888A300046E5A /* ICPageViewController */,
 				4B4322191F98888D00046E5A /* AppDelegate.swift */,
-				4B43221B1F98888D00046E5A /* ViewController.swift */,
+				4B43221B1F98888D00046E5A /* DemoViewController.swift */,
+				4B43224A1F98930F00046E5A /* SubViewController.swift */,
 				4B43221D1F98888D00046E5A /* Main.storyboard */,
 				4B4322201F98888D00046E5A /* Assets.xcassets */,
 				4B4322221F98888D00046E5A /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				4B43223B1F98888D00046E5A /* Info.plist */,
 			);
 			path = ICPageViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		4B4322471F9888A300046E5A /* ICPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B4322481F9888D100046E5A /* ICPageViewController.swift */,
+			);
+			path = ICPageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B43221C1F98888D00046E5A /* ViewController.swift in Sources */,
+				4B43221C1F98888D00046E5A /* DemoViewController.swift in Sources */,
 				4B43221A1F98888D00046E5A /* AppDelegate.swift in Sources */,
+				4B4322491F9888D100046E5A /* ICPageViewController.swift in Sources */,
+				4B43224B1F98930F00046E5A /* SubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +363,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 69RU3386P4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -404,6 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 69RU3386P4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -426,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69RU3386P4;
 				INFOPLIST_FILE = ICPageViewController/Info.plist;
@@ -441,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69RU3386P4;
 				INFOPLIST_FILE = ICPageViewController/Info.plist;
