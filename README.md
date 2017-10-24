@@ -1,5 +1,5 @@
 # ICPageViewController [![Build Status](https://travis-ci.org/interchen/ICPageViewController.svg?branch=master)](https://travis-ci.org/interchen/ICPageViewController)
-A container which easy to add children viewcontrollers and support horizontal scroll.
+A container which is easy to add children viewcontrollers and supports horizontal scroll.
 
 ## Preview
 ![screenshot](https://github.com/interchen/ICPageViewController/blob/master/ICPageViewController-screenshot.gif)
