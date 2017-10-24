@@ -53,4 +53,5 @@ func pageViewController(_ pageViewController: ICPageViewController, viewControll
 `pod 'ICPageViewController'`
 
 ## Don't forget to star if you think this is helpful.
+## 如果这个项目帮到你了，Star 一下再走呗
 
